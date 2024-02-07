@@ -16,8 +16,8 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": {
-		"flutterPermissions": "sudo chown -R vscode /flutter/.pub-cache/",
-		"flutterPubUpgrade": "flutter pub upgrade -C $(dirname $(find ./ -name 'analysis_options.yaml'))"
+		"flutterPermissions": "sudo chown -R vscode /flutter/.pub-cache/"
+	//	"flutterPubUpgrade": "flutter pub upgrade -C $(dirname $(find ./ -name 'analysis_options.yaml'))"
 	}
 
 	// Configure tool-specific properties.
